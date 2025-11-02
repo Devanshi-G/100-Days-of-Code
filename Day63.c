@@ -28,11 +28,7 @@ void selectionSort(int arr[], int n) {
 // Function to find the kth smallest element
 // It takes the array, its size, and k (1-indexed) as input
 int findKthSmallest(int arr[], int n, int k) {
-    // First, sort the entire array
     selectionSort(arr, n);
-
-    // After sorting, the kth smallest element will be at index (k-1)
-    // (because arrays are 0-indexed, so the 1st element is at index 0, 2nd at index 1, etc.)
     return arr[k - 1];
 }
 
