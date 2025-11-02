@@ -45,7 +45,7 @@ int main() {
     // Basic validation for array size
     if (n <= 0) {
         printf("Please enter a positive number of elements.\n");
-        return 1; // Exit with an error code
+        return 1; 
     }
 
     int arr[n];
