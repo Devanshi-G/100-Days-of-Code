@@ -63,7 +63,7 @@ int main() {
     // Basic validation for k
     if (k <= 0 || k > n) {
         printf("Invalid value for k. It must be between 1 and %d.\n", n);
-        return 1; // Exit with an error code
+        return 1; 
     }
 
     // Call our function to find the kth smallest element
